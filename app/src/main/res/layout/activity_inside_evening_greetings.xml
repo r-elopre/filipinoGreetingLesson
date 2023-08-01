@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/evening_gradiant_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_evening_greetings">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="84dp"
+        android:onClick="say_the_greetings3"
+        android:tag="good_evening"
+        android:text=" Good evening!"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Good evening! (Bisaya)"
+        android:textSize="18sp"
+        android:onClick="say_the_greetings3"
+        android:tag="good_evening_bisaya"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Good evening to you!"
+        android:textSize="18sp"
+        android:onClick="say_the_greetings3"
+        android:tag="good_evening_to_you"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="It's evening, friend!"
+        android:textSize="18sp"
+        android:onClick="say_the_greetings3"
+        android:tag="its_evening_friend"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="It's evening, time to sleep!"
+        android:textSize="16sp"
+        android:onClick="say_the_greetings3"
+        android:tag="its_evening_time_to_sleep"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button18" />
+</androidx.constraintlayout.widget.ConstraintLayout>
